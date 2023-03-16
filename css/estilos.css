@@ -90,8 +90,32 @@ footer .contenedor{
     color: rgb(52, 241, 14);
 }
 
+.ejercicio{
+    background-color: #2b9cb3;
+    padding: 1rem 0 5rem;
+}
+
+button{
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background-color: #32bcd8ab;
+    
+}
+button:hover{
+    background-color: #32f7f7d0;
+}
+.flexColor{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+    justify-content: space-evenly;
+
 @media(min-width: 1024px){
     .contenedor{
         width: 1000px;
     } 
+}
 }
